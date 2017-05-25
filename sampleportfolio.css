@@ -2,3 +2,76 @@
   padding: 0px;
   margin:0px;
 }
+
+.container{
+  background-color: red;
+  background: radial-gradient(rgb(106, 61, 72),rgb(33, 10, 19));
+  width: 1000px;
+}
+
+.header{
+  background-color: white;
+  height: 50px;
+  display: block;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.textleft{
+  float:left;
+  margin:0px;
+  padding:0px;
+}
+
+
+.textright {
+  float:right;
+  margin:0px;
+  padding:0px;
+  /*font-size:15px;*/
+}
+
+.profilepic {
+  /*background-color: white;*/
+  display: inline-block;
+  border: white 4px solid;
+  margin: 25px 0px 25px 25px;
+
+}
+
+.aboutme{
+  background-color: white;
+  width: 500px;
+  height: 290px;
+  display:inline-block;
+  /*float:right;*/
+  margin: 20px 0px 20px 20px;
+  vertical-align: top;
+}
+
+.aboutbanner{
+  display:inline-block;
+  /*height:25px;*/
+  /*margin: 20px;*/
+  padding: 10px;
+  width: 500px;
+  background-color: gray;
+
+}
+
+.experience{
+  background-color: white;
+  width: 300px;
+  margin: 0px 25px 0px 25px;
+  display: inline-block;
+}
+
+.techbanner{
+  background-color: gray;
+  width: 300px;
+}
+
+.smalltechbanner{
+  background-color: gray;
+  width: 300px;
+}
